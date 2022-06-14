@@ -1,0 +1,51 @@
+import java.util.ArrayList;
+
+/**
+ *
+ * @author Asus
+ */
+public class Pricipal {
+    
+    private static Ingresar formulario;
+    private static Alumnos alumno[];
+    private static int contador;    
+    
+    
+    
+    public static void main (String[] args){
+        
+                
+        formulario = new Ingresar();
+        alumno = new Alumnos[100];
+        
+        for (int i =0; i < 100; i++){
+            alumno [i]= new Alumnos();
+            
+             
+        }
+        contador=0;
+        
+        formulario.setVisible(true);
+        
+    }
+    
+    public static void guardar(String nom, String cu, int id, int not ){
+    
+        //ArrayList <String> Base;
+      //  Base = new ArrayList<String>();
+
+    alumno[contador].setNombre(nom);
+    alumno[contador].setCurso(cu);
+    alumno[contador].setId(id);
+    alumno[contador].setNota(not);
+  
+    
+
+    
+    contador++;
+    
+    
+}
+
+    
+}
