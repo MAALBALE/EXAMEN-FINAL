@@ -1,0 +1,53 @@
+public class Alumnos {
+    
+    String Nombre;
+    int Id;
+    String Curso;
+    int Nota;
+
+    public Alumnos(String Nombre, int Id, String Curso, int Nota) {
+        this.Nombre = "";
+        this.Id = 0;
+        this.Curso = "";
+        this.Nota = 0;
+    }
+
+
+
+     
+
+    public String getNombre() {
+        return Nombre;
+    }
+
+    public void setNombre(String Nombre) {
+        this.Nombre = Nombre;
+    }
+
+    public int getId() {
+        return Id;
+    }
+
+    public void setId(int Id) {
+        this.Id = Id;
+    }
+
+    public String getCurso() {
+        return Curso;
+    }
+
+    public void setCurso(String Curso) {
+        this.Curso = Curso;
+    }
+
+    public int getNota() {
+        return Nota;
+    }
+
+    public void setNota(int Nota) {
+        this.Nota = Nota;
+    }
+    
+    
+    
+}
